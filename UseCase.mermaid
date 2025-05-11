@@ -1,0 +1,35 @@
+graph TD
+    %% Definición de los actores
+    A[Usuario]
+    B[Periodista/Editor]
+    C[Administrador]
+    D[Aplicación NoticiasApp]
+    
+    %% Casos de uso principales del usuario
+    A -->|Ver noticias| U1[Navegar por feed de noticias]
+    A -->|Personalizar contenido| U2[Seleccionar categorías favoritas]
+    A -->|Guardar noticias| U3[Guardar artículos para leer luego]
+    A -->|Compartir noticias| U4[Compartir artículos en redes sociales]
+    A -->|Recibir alertas| U5[Notificaciones de noticias urgentes]
+    
+    %% Casos de uso del periodista/editor
+    B -->|Publicar contenido| U6[Subir nuevas noticias]
+    B -->|Editar contenido| U7[Modificar artículos publicados]
+    B -->|Analizar rendimiento| U8[Ver estadísticas de lectura]
+    
+    %% Casos de uso del administrador
+    C -->|Gestionar usuarios| U9[Moderar cuentas]
+    C -->|Configurar sistema| U10[Ajustes de la aplicación]
+    
+    %% Funcionalidades de la aplicación
+    D -->|Almacenar datos| U11[Backend para gestión de noticias]
+    D -->|Procesar contenido| U12[Sistema de recomendaciones]
+    D -->|Sincronizar| U13[Actualización en tiempo real]
+    D -->|Autenticación| U14[Inicio de sesión seguro]
+    
+    %% Relaciones adicionales
+    U1 --> U12
+    U2 --> U12
+    U6 --> U11
+    U7 --> U11
+    U5 --> U13
