@@ -26,7 +26,7 @@ class LoginViewModelTest {
 }
 ```
 
-### Ejemplo de Prueba Unitaria para Registro
+### Prueba Unitaria para Registro
 
 ```kotlin
 import org.junit.Assert.assertEquals
