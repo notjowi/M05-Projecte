@@ -50,14 +50,4 @@ class RegisterViewModelTest {
 }
 ```
 
----
 
-## ✅ Buenas Prácticas
-
-* **Aislamiento**: Cada prueba debe centrarse en una única funcionalidad.
-* **Automatización**: Las pruebas deben ejecutarse automáticamente sin intervención manual.
-* **Rapidez**: Las pruebas deben completarse en milisegundos.
-* **Repetibilidad**: Las pruebas deben producir los mismos resultados en cada ejecución.
-* **Independencia**: Las pruebas no deben depender de otras pruebas.
-
----
