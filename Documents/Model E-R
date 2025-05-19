@@ -1,0 +1,47 @@
+##
+# Diagrama E-R para la gestión de usuarios en Supabase.
+# Este diagrama representa la estructura de la base de datos para la gestión de usuarios, incluyendo roles, sesiones y tokens de actualización.
+
+```mermaid
+erDiagram
+    USERS {
+        uuid id PK "Identificador único del usuario"
+        text email "Correo electrónico del usuario"
+        text phone "Número de teléfono del usuario"
+        text password "Contraseña del usuario"
+        text username "Nombre de usuario"
+        timestamp created_at "Fecha de creación"
+        timestamp updated_at "Fecha de actualización"
+        boolean is_active "Estado del usuario"
+    }
+
+    USER_ROLES {
+        uuid id PK "Identificador único del rol"
+        uuid user_id FK "Referencia al usuario"
+        text role "Tipo de rol asignado al usuario"
+        timestamp created_at "Fecha de creación"
+        timestamp updated_at "Fecha de actualización"
+    }
+
+    USER_SESSIONS {
+        uuid id PK "Identificador único de la sesión"
+        uuid user_id FK "Referencia al usuario"
+        text session_token "Token de sesión"
+        timestamp created_at "Fecha de creación"
+        timestamp updated_at "Fecha de actualización"
+        timestamp expires_at "Fecha de expiración de la sesión"
+    }
+
+    REFRESH_TOKENS {
+        uuid id PK "Identificador único del token de actualización"
+        uuid user_id FK "Referencia al usuario"
+        text refresh_token "Token de actualización"
+        timestamp created_at "Fecha de creación"
+        timestamp updated_at "Fecha de actualización"
+        timestamp expires_at "Fecha de expiración del token"
+    }
+
+    USERS ||--o{ USER_ROLES : has
+    USERS ||--o{ USER_SESSIONS : has
+    USERS ||--o{ REFRESH_TOKENS : has
+```

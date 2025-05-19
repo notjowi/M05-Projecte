@@ -52,7 +52,16 @@ android {
     }
     packaging {
         resources {
-            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            excludes += listOf(
+                "/META-INF/{AL2.0,LGPL2.1}",
+                "META-INF/DEPENDENCIES",
+                "META-INF/LICENSE",
+                "META-INF/LICENSE.txt",
+                "META-INF/NOTICE",
+                "META-INF/NOTICE.txt",
+                "META-INF/ASL2.0",
+                "META-INF/*.kotlin_module"
+            )
         }
     }
     buildTypes {
@@ -68,5 +77,12 @@ android {
 
 dependencies {
     debugImplementation(compose.uiTooling)
+    implementation(platform("io.github.jan-tennert.supabase:bom:${libs.versions.supabase.get()}"))
+    implementation(libs.supabase.postgrest.kt)
+    implementation("io.ktor:ktor-client-core:${libs.versions.ktor.get()}")
+    implementation(libs.androidx.navigation.runtime.ktx)
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.ktor.client.apache5)
+    implementation(libs.ktor.client.okhttp)
 }
 
