@@ -100,5 +100,5 @@ Este proyecto está bajo la licencia **MIT**. Ver [LICENSE](LICENSE) para más d
 
 ---
 
-**NotiApp Team** © 2023 | [Reportar un issue](https://github.com/notjowi/M05-Projecte/issues) | [Documentación técnica](Documents/)
+**NotiApp Team** © 2025 | [Reportar un issue](https://github.com/notjowi/M05-Projecte/issues) | [Documentación técnica](Documents/)
 
