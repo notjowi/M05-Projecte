@@ -3,7 +3,7 @@
 # NotiApp - Aplicación de Noticias en Android 📱
 
 NotiApp es una aplicación móvil Android que permite a los usuarios explorar, personalizar y gestionar noticias en tiempo real, con un diseño intuitivo y funcionalidades avanzadas como recomendaciones personalizadas y modo offline.
-[Descripcion del proyecto](https://github.com/notjowi/M05-Projecte/blob/ee0a92f3200900648cb920bc5d035269e689bfbc/Documents/descproyecto.md)
+[Descripcion del proyecto](https://github.com/notjowi/M05-Projecte/blob/59bae2eb5fe8a27fd710c782fa8f93eba61f3225/Documents/descproyecto.md)
 ## Características principales ✨
 
 - 📰 Feed de noticias en tiempo real  
