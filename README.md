@@ -41,7 +41,8 @@ NotiApp es una aplicación móvil Android que permite a los usuarios explorar, p
 - [Casos de uso (Mermaid)](https://github.com/notjowi/M05-Projecte/blob/ee0a92f3200900648cb920bc5d035269e689bfbc/Documents/UseCase.mermaid)  
 - [Script SQL de Supabase](https://github.com/notjowi/M05-Projecte/blob/main/Documents/dbAuthNotiApp(Supabase).sql)  
 - [Requisitos técnicos](https://github.com/notjowi/M05-Projecte/blob/ee0a92f3200900648cb920bc5d035269e689bfbc/Documents/req-tecnic.md)  
-- [Pruebas unitarias](https://github.com/notjowi/M05-Projecte/blob/ee0a92f3200900648cb920bc5d035269e689bfbc/Documents/testsunitaris.md)  
+- [Pruebas unitarias](https://github.com/notjowi/M05-Projecte/blob/ee0a92f3200900648cb920bc5d035269e689bfbc/Documents/testsunitaris.md)
+- [Descripció dels End-points del WebService](https://github.com/notjowi/M05-Projecte/blob/main/Documents/Diagrama%20de%20arquitectura%20Cliente-Servidor.md#definici%C3%B3n-de-los-endpoints-del-webservice)  
 ## Requisitos del sistema 📋
 
 - Android Studio Giraffe+ o IDEA
