@@ -44,7 +44,7 @@ NotiApp es una aplicación móvil Android que permite a los usuarios explorar, p
 - [Pruebas unitarias](https://github.com/notjowi/M05-Projecte/blob/ee0a92f3200900648cb920bc5d035269e689bfbc/Documents/testsunitaris.md)  
 ## Requisitos del sistema 📋
 
-- Android Studio Giraffe+  
+- Android Studio Giraffe+ o IDEA
 - Android SDK 34 (Android 14)  
 - Dispositivo con Android 8.0+ (API 26+)  
 - Conexión a Internet para sincronización inicial  
